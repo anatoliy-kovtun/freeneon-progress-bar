@@ -1,0 +1,19 @@
+{
+  "name": "freeneon-progress-bar",
+  "version": "1.0.0",
+  "description": "javascript плагин прогресс бара прокрутки страницы в виде полоски которая показывает сколько процентов страницы прокручено (проскролено).",
+  "main": "freeneon-progress-bar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "плагин",
+    "прогресс",
+    "бар",
+    "progress",
+    "bar"
+  ],
+  "author": "freeneon",
+  "license": "MIT"
+}

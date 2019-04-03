@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>freeneon-progress-bar</title>
+
+	<style>
+
+		body {
+
+			margin: 0;
+			padding: 0;
+			height: 2000px;
+		}
+
+		.progress-bar {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 0;
+			height: 3px;
+			background: green;
+			z-index: 9999;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div class="progress-bar"></div>
+
+	<script src="freeneon-progress-bar.js"></script>
+
+	<script>
+
+		freeneonProgressBar(".progress-bar");
+
+	</script>
+</body>
+</html>
